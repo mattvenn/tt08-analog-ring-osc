@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1725542755
+timestamp 1725543483
 << metal4 >>
 rect 3067 22476 3097 22576
 rect 3343 22476 3373 22576
@@ -55,8 +55,8 @@ rect 9385 0 9475 100
 rect 11317 0 11407 100
 rect 13249 0 13339 100
 rect 15181 0 15271 100
-use driver  driver_0
-timestamp 1725542515
+use driver  driver_0 ~/work/asic-workshop/shuttle-tt08/tt08-analog-ring-osc/mag
+timestamp 1725543483
 transform 1 0 6295 0 1 1605
 box 1395 -320 2605 1740
 << labels >>
