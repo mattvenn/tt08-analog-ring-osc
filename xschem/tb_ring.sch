@@ -6,8 +6,8 @@ V {}
 S {}
 E {}
 B 2 -220 420 580 820 {flags=graph
-y1=0.4
-y2=2.4
+y1=1.4e-17
+y2=1.8
 ypos1=0
 ypos2=2
 divy=5
@@ -21,8 +21,9 @@ xlabmag=1.0
 ylabmag=1.0
 node="enable
 ring_out
-out"
-color="4 10 6"
+out
+pre_drive"
+color="4 10 6 15"
 dataset=-1
 unitx=1
 logx=0
@@ -44,14 +45,30 @@ N -790 440 -600 440 {
 lab=ring_out}
 N -600 550 -590 550 {
 lab=ring_out}
-N -790 420 -770 420 {
+N -820 260 -800 260 {
 lab=GND}
-N -790 400 -770 400 {
+N -820 240 -800 240 {
 lab=vdd}
 N -420 550 -420 590 {
 lab=ring_out}
 N -600 440 -600 550 {
 lab=ring_out}
+N -820 280 -820 320 {
+lab=pre_drive}
+N -1130 320 -820 320 {
+lab=pre_drive}
+N -1130 320 -1130 360 {
+lab=pre_drive}
+N -1130 360 -1120 360 {
+lab=pre_drive}
+N -820 400 -820 440 {
+lab=ring_out}
+N -820 440 -790 440 {
+lab=ring_out}
+N -820 360 -810 360 {
+lab=vdd}
+N -820 380 -800 380 {
+lab=GND}
 C {devices/lab_pin.sym} -720 590 0 0 {name=p5 sig_type=std_logic lab=out}
 C {devices/code.sym} -1060 780 0 0 {name=TT_MODELS
 only_toplevel=true
@@ -89,12 +106,18 @@ C {devices/lab_pin.sym} -1460 -120 2 1 {name=p19 sig_type=std_logic lab=vdd
 }
 C {pad_model.sym} -570 610 0 0 {name=x10}
 C {devices/gnd.sym} -720 630 0 0 {name=l8 lab=GND}
-C {ring.sym} -940 420 0 0 {name=x1}
-C {devices/gnd.sym} -770 420 0 0 {name=l1 lab=GND}
-C {devices/lab_pin.sym} -770 400 0 1 {name=p1 sig_type=std_logic lab=vdd
+C {ring.sym} -970 260 0 0 {name=x1}
+C {devices/gnd.sym} -800 260 0 0 {name=l1 lab=GND}
+C {devices/lab_pin.sym} -800 240 0 1 {name=p1 sig_type=std_logic lab=vdd
 }
-C {devices/lab_pin.sym} -1090 400 0 0 {name=p2 sig_type=std_logic lab=enable
+C {devices/lab_pin.sym} -1120 240 0 0 {name=p2 sig_type=std_logic lab=enable
 }
 C {devices/vsource.sym} -890 -70 0 0 {name=V1 value=1.8 savecurrent=false}
 C {devices/lab_pin.sym} -600 440 0 1 {name=p3 sig_type=std_logic lab=ring_out
+}
+C {driver.sym} -970 380 0 0 {name=x2}
+C {devices/lab_pin.sym} -810 360 0 1 {name=p4 sig_type=std_logic lab=vdd
+}
+C {devices/gnd.sym} -800 380 0 0 {name=l2 lab=GND}
+C {devices/lab_pin.sym} -820 320 0 1 {name=p6 sig_type=std_logic lab=pre_drive
 }
