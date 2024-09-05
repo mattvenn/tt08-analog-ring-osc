@@ -20,4 +20,47 @@ module tt_um_mattvenn_analog_ring_osc (
     input  wire       rst_n     // reset_n - low to reset
 );
 
+    wire ring_0_out;
+
+    ring ring_0(
+        .VDD(VDPWR),
+        .VSS(VGND),
+        .enable(ui_in[0]),
+        .out(ring_0_out)
+    );
+
+    driver driver_0(
+        .VDD(VDPWR),
+        .VSS(VGND),
+        .in(ring_0_out),
+        .out(ua[0])
+    );
+    // ties for the output enables
+    assign uo_out[0] = VGND;
+    assign uo_out[1] = VGND;
+    assign uo_out[2] = VGND;
+    assign uo_out[3] = VGND;
+    assign uo_out[4] = VGND;
+    assign uo_out[5] = VGND;
+    assign uo_out[6] = VGND;
+    assign uo_out[7] = VGND;
+
+    assign uio_out[0] = VGND;
+    assign uio_out[1] = VGND;
+    assign uio_out[2] = VGND;
+    assign uio_out[3] = VGND;
+    assign uio_out[4] = VGND;
+    assign uio_out[5] = VGND;
+    assign uio_out[6] = VGND;
+    assign uio_out[7] = VGND;
+
+    assign uio_oe[0] = VGND;
+    assign uio_oe[1] = VGND;
+    assign uio_oe[2] = VGND;
+    assign uio_oe[3] = VGND;
+    assign uio_oe[4] = VGND;
+    assign uio_oe[5] = VGND;
+    assign uio_oe[6] = VGND;
+    assign uio_oe[7] = VGND;
+
 endmodule
