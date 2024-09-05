@@ -13,7 +13,7 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=1.25e-16
+x1=1.5625e-17
 x2=5e-09
 divx=5
 subdivx=1
@@ -29,30 +29,43 @@ unitx=1
 logx=0
 logy=0
 }
+B 2 -220 880 580 1280 {flags=graph
+y1=1.4e-17
+y2=1.8
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=1.5625e-17
+x2=5e-09
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+node="ring_out_parax
+out_parax
+pre_drive_parax"
+color="4 10 6"
+dataset=-1
+unitx=1
+logx=0
+logy=0
+}
 N -890 -40 -890 -20 {
 lab=GND}
 N -920 -120 -890 -120 {
 lab=enable}
 N -890 -120 -890 -100 {
 lab=enable}
-N -1460 -120 -1460 -110 {
+N -1070 -100 -1070 -90 {
 lab=vdd}
-N -1460 -50 -1460 -40 {
+N -1070 -30 -1070 -20 {
 lab=GND}
-N -590 550 -420 550 {
-lab=ring_out}
-N -790 440 -600 440 {
-lab=ring_out}
-N -600 550 -590 550 {
-lab=ring_out}
 N -820 260 -800 260 {
 lab=GND}
 N -820 240 -800 240 {
 lab=vdd}
-N -420 550 -420 590 {
-lab=ring_out}
-N -600 440 -600 550 {
-lab=ring_out}
 N -820 280 -820 320 {
 lab=pre_drive}
 N -1130 320 -820 320 {
@@ -63,13 +76,33 @@ N -1130 360 -1120 360 {
 lab=pre_drive}
 N -820 400 -820 440 {
 lab=ring_out}
-N -820 440 -790 440 {
-lab=ring_out}
 N -820 360 -810 360 {
 lab=vdd}
 N -820 380 -800 380 {
 lab=GND}
-C {devices/lab_pin.sym} -720 590 0 0 {name=p5 sig_type=std_logic lab=out}
+N -1380 260 -1360 260 {
+lab=GND}
+N -1380 240 -1360 240 {
+lab=vdd}
+N -1380 280 -1380 320 {
+lab=pre_drive_parax}
+N -1690 320 -1380 320 {
+lab=pre_drive_parax}
+N -1690 320 -1690 360 {
+lab=pre_drive_parax}
+N -1690 360 -1680 360 {
+lab=pre_drive_parax}
+N -1380 400 -1380 440 {
+lab=ring_out_parax}
+N -1380 360 -1370 360 {
+lab=vdd}
+N -1380 380 -1360 380 {
+lab=GND}
+N -1380 440 -1380 480 {
+lab=ring_out_parax}
+N -820 440 -820 480 {
+lab=ring_out}
+C {devices/lab_pin.sym} -1120 480 0 0 {name=p5 sig_type=std_logic lab=out}
 C {devices/code.sym} -1060 780 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval( @value )"
@@ -100,12 +133,12 @@ write tb_ring.raw
 .endc
 .end
 "}
-C {devices/vsource.sym} -1460 -80 0 0 {name=V10 value=1.8 savecurrent=false}
-C {devices/gnd.sym} -1460 -40 0 0 {name=l13 lab=GND}
-C {devices/lab_pin.sym} -1460 -120 2 1 {name=p19 sig_type=std_logic lab=vdd
+C {devices/vsource.sym} -1070 -60 0 0 {name=V10 value=1.8 savecurrent=false}
+C {devices/gnd.sym} -1070 -20 0 0 {name=l13 lab=GND}
+C {devices/lab_pin.sym} -1070 -100 2 1 {name=p19 sig_type=std_logic lab=vdd
 }
-C {pad_model.sym} -570 610 0 0 {name=x10}
-C {devices/gnd.sym} -720 630 0 0 {name=l8 lab=GND}
+C {pad_model.sym} -970 500 0 0 {name=x10}
+C {devices/gnd.sym} -1120 520 0 0 {name=l8 lab=GND}
 C {ring.sym} -970 260 0 0 {name=x1}
 C {devices/gnd.sym} -800 260 0 0 {name=l1 lab=GND}
 C {devices/lab_pin.sym} -800 240 0 1 {name=p1 sig_type=std_logic lab=vdd
@@ -113,11 +146,31 @@ C {devices/lab_pin.sym} -800 240 0 1 {name=p1 sig_type=std_logic lab=vdd
 C {devices/lab_pin.sym} -1120 240 0 0 {name=p2 sig_type=std_logic lab=enable
 }
 C {devices/vsource.sym} -890 -70 0 0 {name=V1 value=1.8 savecurrent=false}
-C {devices/lab_pin.sym} -600 440 0 1 {name=p3 sig_type=std_logic lab=ring_out
+C {devices/lab_pin.sym} -820 480 0 1 {name=p3 sig_type=std_logic lab=ring_out
 }
 C {driver.sym} -970 380 0 0 {name=x2}
 C {devices/lab_pin.sym} -810 360 0 1 {name=p4 sig_type=std_logic lab=vdd
 }
 C {devices/gnd.sym} -800 380 0 0 {name=l2 lab=GND}
 C {devices/lab_pin.sym} -820 320 0 1 {name=p6 sig_type=std_logic lab=pre_drive
+}
+C {devices/lab_pin.sym} -1680 480 0 0 {name=p7 sig_type=std_logic lab=out_parax}
+C {pad_model.sym} -1530 500 0 0 {name=x3}
+C {devices/gnd.sym} -1680 520 0 0 {name=l3 lab=GND}
+C {ring.sym} -1530 260 0 0 {name=x4
+schematic=ring_parax.sim
+spice_sym_def="tcleval(.include [file normalize ../mag/ring.sim.spice])"
+tclcommand="textwindow [file normalize ../mag/ring.sim.spice]"}
+C {devices/gnd.sym} -1360 260 0 0 {name=l5 lab=GND}
+C {devices/lab_pin.sym} -1360 240 0 1 {name=p8 sig_type=std_logic lab=vdd
+}
+C {devices/lab_pin.sym} -1680 240 0 0 {name=p10 sig_type=std_logic lab=enable
+}
+C {devices/lab_pin.sym} -1380 480 0 1 {name=p11 sig_type=std_logic lab=ring_out_parax
+}
+C {driver.sym} -1530 380 0 0 {name=x5}
+C {devices/lab_pin.sym} -1370 360 0 1 {name=p12 sig_type=std_logic lab=vdd
+}
+C {devices/gnd.sym} -1360 380 0 0 {name=l6 lab=GND}
+C {devices/lab_pin.sym} -1380 320 0 1 {name=p13 sig_type=std_logic lab=pre_drive_parax
 }
