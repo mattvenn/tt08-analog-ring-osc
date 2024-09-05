@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1725561279
+timestamp 1725561929
 << metal1 >>
 rect 27794 7440 27800 7840
 rect 28200 7440 28700 7840
@@ -198,8 +198,8 @@ use driver  driver_0 ~/work/asic-workshop/shuttle-tt08/tt08-analog-ring-osc/mag
 timestamp 1725547227
 transform 1 0 25610 0 1 2440
 box 2790 -640 5210 3480
-use ring  ring_0
-timestamp 1725561279
+use ring  ring_0 ~/work/asic-workshop/shuttle-tt08/tt08-analog-ring-osc/mag
+timestamp 1725561929
 transform 0 1 29640 -1 0 11140
 box -220 -1240 4640 640
 << labels >>
