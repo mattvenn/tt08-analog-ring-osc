@@ -46,7 +46,7 @@ ylabmag=1.0
 node="ring_out_parax
 out_parax
 pre_drive_parax"
-color="4 10 6"
+color="10 6 15"
 dataset=-1
 unitx=1
 logx=0
