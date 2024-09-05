@@ -1,0 +1,335 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1725550164
+<< nwell >>
+rect 2640 50 3410 370
+<< poly >>
+rect 390 -650 430 -610
+rect 590 -640 630 -600
+<< viali >>
+rect 200 10 243 53
+rect 310 0 350 40
+rect 520 10 560 50
+rect 630 0 670 40
+rect 840 10 880 50
+rect 950 0 990 40
+rect 1160 10 1200 50
+rect 1270 0 1310 40
+rect 1480 10 1520 50
+rect 1590 0 1630 40
+rect 1800 10 1840 50
+rect 1910 0 1950 40
+rect 2120 10 2160 50
+rect 2230 0 2270 40
+rect 2440 10 2480 50
+rect 2550 0 2590 40
+rect 2760 10 2800 50
+rect 2860 10 2900 50
+rect 3390 10 3430 50
+rect 3680 10 3720 50
+rect 3780 10 3820 50
+rect 280 -650 323 -607
+rect 390 -650 430 -610
+rect 590 -640 630 -600
+rect 710 -650 750 -610
+rect 910 -640 950 -600
+rect 1030 -650 1070 -610
+rect 1230 -640 1270 -600
+rect 1350 -650 1390 -610
+rect 1550 -640 1590 -600
+rect 1670 -650 1710 -610
+rect 1870 -640 1910 -600
+rect 1990 -650 2030 -610
+rect 2190 -640 2230 -600
+rect 2310 -650 2350 -610
+rect 2510 -640 2550 -600
+rect 2630 -650 2670 -610
+rect 2830 -640 2870 -600
+rect 2950 -650 2990 -610
+<< metal1 >>
+rect -200 600 3980 640
+rect -200 420 260 600
+rect 3020 420 3980 600
+rect 4360 495 4640 640
+rect -200 280 3980 420
+rect 4240 425 4640 495
+rect 4240 230 4310 425
+rect 4360 280 4640 425
+rect 3660 160 4310 230
+rect 180 53 260 70
+rect 180 50 200 53
+rect -26 -10 -20 50
+rect 40 10 200 50
+rect 243 10 260 53
+rect 510 50 580 60
+rect 830 50 900 60
+rect 1150 50 1220 60
+rect 1470 50 1540 60
+rect 1790 50 1860 60
+rect 2110 50 2180 60
+rect 2430 50 2500 60
+rect 2750 50 2820 60
+rect 40 -10 260 10
+rect 290 40 520 50
+rect 290 0 310 40
+rect 350 10 520 40
+rect 560 10 580 50
+rect 350 0 580 10
+rect 290 -10 580 0
+rect 610 40 840 50
+rect 610 0 630 40
+rect 670 10 840 40
+rect 880 10 900 50
+rect 670 0 900 10
+rect 610 -10 900 0
+rect 930 40 1160 50
+rect 930 0 950 40
+rect 990 10 1160 40
+rect 1200 10 1220 50
+rect 990 0 1220 10
+rect 930 -10 1220 0
+rect 1250 40 1480 50
+rect 1250 0 1270 40
+rect 1310 10 1480 40
+rect 1520 10 1540 50
+rect 1310 0 1540 10
+rect 1250 -10 1540 0
+rect 1570 40 1800 50
+rect 1570 0 1590 40
+rect 1630 10 1800 40
+rect 1840 10 1860 50
+rect 1630 0 1860 10
+rect 1570 -10 1860 0
+rect 1890 40 2120 50
+rect 1890 0 1910 40
+rect 1950 10 2120 40
+rect 2160 10 2180 50
+rect 1950 0 2180 10
+rect 1890 -10 2180 0
+rect 2210 40 2440 50
+rect 2210 0 2230 40
+rect 2270 10 2440 40
+rect 2480 10 2500 50
+rect 2270 0 2500 10
+rect 2210 -10 2500 0
+rect 2530 40 2760 50
+rect 2530 0 2550 40
+rect 2590 10 2760 40
+rect 2800 10 2820 50
+rect 2590 0 2820 10
+rect 2530 -10 2820 0
+rect 2850 50 2940 70
+rect 3380 50 3440 60
+rect 3660 50 3730 160
+rect 3890 60 4440 70
+rect 2850 10 2860 50
+rect 2900 10 3390 50
+rect 3430 10 3470 50
+rect 2850 0 3470 10
+rect 3660 10 3680 50
+rect 3720 10 3730 50
+rect 2850 -20 2940 0
+rect 3660 -10 3730 10
+rect 3760 50 3900 60
+rect 3760 10 3780 50
+rect 3820 10 3900 50
+rect 3760 0 3900 10
+rect 3960 0 4440 60
+rect 3890 -10 4440 0
+rect 4280 -160 4440 -10
+rect -220 -440 3980 -160
+rect 4280 -440 4640 -160
+rect -26 -650 -20 -590
+rect 40 -600 170 -590
+rect 270 -600 340 -590
+rect 580 -600 650 -590
+rect 900 -600 970 -590
+rect 1220 -600 1290 -590
+rect 1540 -600 1610 -590
+rect 1860 -600 1930 -590
+rect 2180 -600 2250 -590
+rect 2500 -600 2570 -590
+rect 2820 -600 2890 -590
+rect 40 -607 340 -600
+rect 40 -650 280 -607
+rect 323 -650 340 -607
+rect 270 -660 340 -650
+rect 370 -610 590 -600
+rect 370 -650 390 -610
+rect 430 -640 590 -610
+rect 630 -640 650 -600
+rect 430 -650 650 -640
+rect 690 -610 910 -600
+rect 690 -650 710 -610
+rect 750 -640 910 -610
+rect 950 -640 970 -600
+rect 750 -650 970 -640
+rect 1010 -610 1230 -600
+rect 1010 -650 1030 -610
+rect 1070 -640 1230 -610
+rect 1270 -640 1290 -600
+rect 1070 -650 1290 -640
+rect 1330 -610 1550 -600
+rect 1330 -650 1350 -610
+rect 1390 -640 1550 -610
+rect 1590 -640 1610 -600
+rect 1390 -650 1610 -640
+rect 1650 -610 1870 -600
+rect 1650 -650 1670 -610
+rect 1710 -640 1870 -610
+rect 1910 -640 1930 -600
+rect 1710 -650 1930 -640
+rect 1970 -610 2190 -600
+rect 1970 -650 1990 -610
+rect 2030 -640 2190 -610
+rect 2230 -640 2250 -600
+rect 2030 -650 2250 -640
+rect 2290 -610 2510 -600
+rect 2290 -650 2310 -610
+rect 2350 -640 2510 -610
+rect 2550 -640 2570 -600
+rect 2350 -650 2570 -640
+rect 2610 -610 2830 -600
+rect 2610 -650 2630 -610
+rect 2670 -640 2830 -610
+rect 2870 -640 2890 -600
+rect 2670 -650 2890 -640
+rect 2930 -610 3310 -580
+rect 2930 -650 2950 -610
+rect 2990 -620 3310 -610
+rect 2990 -650 3900 -620
+rect 370 -660 440 -650
+rect 690 -660 760 -650
+rect 1010 -660 1080 -650
+rect 1330 -660 1400 -650
+rect 1650 -660 1720 -650
+rect 1970 -660 2040 -650
+rect 2290 -660 2360 -650
+rect 2610 -660 2680 -650
+rect 2930 -660 3900 -650
+rect 3250 -680 3900 -660
+rect 3960 -680 3966 -620
+rect -200 -1020 3980 -880
+rect -200 -1200 260 -1020
+rect 3020 -1200 3980 -1020
+rect -200 -1240 3980 -1200
+<< via1 >>
+rect 260 420 3020 600
+rect -20 -10 40 50
+rect 3900 0 3960 60
+rect -20 -650 40 -590
+rect 3900 -680 3960 -620
+rect 260 -1200 3020 -1020
+<< metal2 >>
+rect 200 600 3080 640
+rect 200 420 260 600
+rect 3020 420 3080 600
+rect -20 50 40 56
+rect -20 -590 40 -10
+rect -20 -656 40 -650
+rect 200 -880 3080 420
+rect 3890 60 3970 70
+rect 3890 0 3900 60
+rect 3960 0 3970 60
+rect 3890 -10 3970 0
+rect 3900 -620 3960 -10
+rect 3900 -686 3960 -680
+rect -200 -1020 3080 -880
+rect -200 -1200 260 -1020
+rect 3020 -1200 3080 -1020
+rect -200 -1240 3080 -1200
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_0
+timestamp 1704896540
+transform 1 0 2418 0 1 -212
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_1
+timestamp 1704896540
+transform 1 0 178 0 1 -212
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_2
+timestamp 1704896540
+transform 1 0 498 0 1 -212
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_3
+timestamp 1704896540
+transform 1 0 818 0 1 -212
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_4
+timestamp 1704896540
+transform 1 0 1138 0 1 -212
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_5
+timestamp 1704896540
+transform 1 0 1458 0 1 -212
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_6
+timestamp 1704896540
+transform 1 0 1778 0 1 -212
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_7
+timestamp 1704896540
+transform 1 0 2098 0 1 -212
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_8
+timestamp 1704896540
+transform -1 0 454 0 -1 -388
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_9
+timestamp 1704896540
+transform 1 0 2738 0 1 -212
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_10
+timestamp 1704896540
+transform -1 0 3014 0 -1 -388
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_11
+timestamp 1704896540
+transform -1 0 2694 0 -1 -388
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_12
+timestamp 1704896540
+transform -1 0 2374 0 -1 -388
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_13
+timestamp 1704896540
+transform -1 0 2054 0 -1 -388
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_14
+timestamp 1704896540
+transform -1 0 1734 0 -1 -388
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_15
+timestamp 1704896540
+transform -1 0 1414 0 -1 -388
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_16
+timestamp 1704896540
+transform -1 0 1094 0 -1 -388
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_2  sky130_fd_sc_hd__inv_2_17
+timestamp 1704896540
+transform -1 0 774 0 -1 -388
+box -38 -48 314 592
+use sky130_fd_sc_hd__nand2_2  sky130_fd_sc_hd__nand2_2_0
+timestamp 1704896540
+transform 1 0 3378 0 1 -212
+box -38 -48 498 592
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_0
+timestamp 1704896540
+transform 1 0 18 0 -1 -388
+box -38 -48 130 592
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_1
+timestamp 1704896540
+transform 1 0 18 0 1 -212
+box -38 -48 130 592
+<< labels >>
+flabel metal1 -220 -440 -20 -160 0 FreeSans 1600 0 0 0 VSS
+port 0 nsew
+flabel metal1 -200 280 -40 640 0 FreeSans 1600 0 0 0 VDD
+port 2 nsew
+flabel metal1 4360 280 4640 640 0 FreeSans 1600 0 0 0 enable
+port 3 nsew
+flabel metal1 4360 -440 4640 -160 0 FreeSans 1600 0 0 0 out
+port 5 nsew
+<< end >>
