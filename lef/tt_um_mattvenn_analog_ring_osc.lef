@@ -1,7 +1,3 @@
-VERSION 5.7 ;
-  NOWIREEXTENSIONATPIN ON ;
-  DIVIDERCHAR "/" ;
-  BUSBITCHARS "[]" ;
 MACRO tt_um_mattvenn_analog_ring_osc
   CLASS BLOCK ;
   FOREIGN tt_um_mattvenn_analog_ring_osc ;
