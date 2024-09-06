@@ -1,12 +1,11 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1725561929
+timestamp 1725617145
 << nwell >>
-rect 2640 136 3410 360
-rect 2980 100 3410 136
-rect 2980 40 3000 100
+rect 2640 136 2944 360
 << viali >>
+rect 530 0 564 34
 rect 630 -10 664 24
 rect 810 0 844 34
 rect 906 -10 940 24
@@ -24,6 +23,7 @@ rect 2466 0 2500 34
 rect 2562 -10 2596 24
 rect 2742 0 2776 34
 rect 2830 -10 2864 24
+rect 610 -480 644 -446
 rect 710 -484 744 -450
 rect 890 -474 924 -440
 rect 986 -484 1020 -450
@@ -55,6 +55,11 @@ rect 3660 120 3730 160
 rect 3890 60 4440 70
 rect -26 -10 -20 50
 rect 40 -10 92 50
+rect 390 34 580 50
+rect 390 0 530 34
+rect 564 0 580 34
+rect 390 -5 580 0
+rect 460 -20 580 -5
 rect 620 34 860 50
 rect 620 24 810 34
 rect 620 -10 630 24
@@ -111,17 +116,25 @@ rect 2596 0 2742 24
 rect 2776 0 2792 34
 rect 2596 -10 2792 0
 rect 2552 -30 2792 -10
-rect 2820 24 3060 50
+rect 2820 24 2944 50
 rect 2820 -10 2830 24
-rect 2864 -10 3060 24
+rect 2864 -10 2944 24
 rect 3840 0 3900 60
 rect 3960 0 4440 60
 rect 3890 -10 4440 0
-rect 2820 -30 3060 -10
+rect 2820 -30 2944 -10
+rect 390 -81 460 -75
 rect 4280 -160 4440 -10
 rect -220 -204 276 -160
 rect -220 -272 3980 -204
 rect -220 -440 276 -272
+rect 384 -385 390 -315
+rect 460 -385 466 -315
+rect 390 -430 460 -385
+rect 390 -446 660 -430
+rect 390 -480 610 -446
+rect 644 -480 660 -446
+rect 390 -500 660 -480
 rect 694 -440 934 -420
 rect 694 -450 890 -440
 rect 694 -484 710 -450
@@ -196,7 +209,9 @@ rect -200 -1240 3980 -1200
 << via1 >>
 rect 260 420 3020 600
 rect -20 -10 40 50
+rect 390 -75 460 -5
 rect 3900 0 3960 60
+rect 390 -385 460 -315
 rect -20 -650 40 -590
 rect 3900 -680 3960 -620
 rect 260 -1200 3020 -1020
@@ -207,11 +222,17 @@ rect 3020 420 3080 600
 rect -20 50 40 56
 rect -20 -590 40 -10
 rect -20 -656 40 -650
-rect 200 -880 3080 420
+rect 200 -5 3080 420
+rect 200 -75 390 -5
+rect 460 -75 3080 -5
 rect 3890 60 3970 70
 rect 3890 0 3900 60
 rect 3960 0 3970 60
 rect 3890 -10 3970 0
+rect 200 -315 3080 -75
+rect 200 -385 390 -315
+rect 460 -385 3080 -315
+rect 200 -880 3080 -385
 rect 3900 -620 3960 -10
 rect 3900 -686 3960 -680
 rect -200 -1020 3080 -880
@@ -301,6 +322,26 @@ box -38 -48 130 592
 use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_1
 timestamp 1704896540
 transform 1 0 18 0 1 -212
+box -38 -48 130 592
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_2
+timestamp 1704896540
+transform 1 0 2982 0 -1 -224
+box -38 -48 130 592
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_3
+timestamp 1704896540
+transform 1 0 2982 0 1 -224
+box -38 -48 130 592
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_4
+timestamp 1704896540
+transform 1 0 3166 0 1 -224
+box -38 -48 130 592
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_5
+timestamp 1704896540
+transform 1 0 3258 0 1 -224
+box -38 -48 130 592
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_6
+timestamp 1704896540
+transform 1 0 3074 0 1 -224
 box -38 -48 130 592
 << labels >>
 flabel metal1 -220 -440 -20 -160 0 FreeSans 1600 0 0 0 VSS
