@@ -95,6 +95,7 @@ MACRO tt_um_mattvenn_analog_ring_osc
   PIN ui_in[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.495000 ;
     PORT
       LAYER met4 ;
         RECT 138.310 224.760 138.610 225.760 ;
@@ -430,11 +431,11 @@ MACRO tt_um_mattvenn_analog_ring_osc
   END VGND
   OBS
       LAYER li1 ;
-        RECT 143.455 10.300 152.380 55.610 ;
+        RECT 143.730 10.300 152.380 53.670 ;
       LAYER met1 ;
         RECT 138.800 4.550 154.100 56.800 ;
       LAYER met2 ;
-        RECT 138.980 3.550 153.400 56.700 ;
+        RECT 138.980 3.550 153.400 54.225 ;
       LAYER met3 ;
         RECT 1.000 2.050 153.425 50.230 ;
       LAYER met4 ;
