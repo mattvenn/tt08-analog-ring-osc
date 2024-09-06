@@ -1,6 +1,10 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 
-# Tiny Tapeout Analog Project Template
+# 600 MHz ring oscillator
+
+Uses 19 inverters and an output driver to test the bandwidth of the analog pins.
+
+![layout](docs/ringosclayout.png)
 
 - [Read the documentation for project](docs/info.md)
 
