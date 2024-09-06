@@ -20,14 +20,14 @@ To get a good output current, a 2 stage inverter is used with large drive transi
 * [Ring oscillator 2](https://xschem-viewer.com/?file=https%3A%2F%2Fgithub.com%2Fmattvenn%2Ftt08-analog-ring-osc%2Fblob%2Fmain%2Fxschem%2Fring_2.sch)
 * [Driver](https://xschem-viewer.com/?file=https://github.com/mattvenn/tt08-analog-ring-osc/blob/main/xschem/driver.sch)
 
-The output waveform is expected to be as shown in the cyan trace (out_parax). The ring_out_parax and pre_drive_parax are internal signals. See the xschem test bench for more details.
+The output waveform of the 600MHz is expected to be as shown in the cyan trace (out_parax). The ring_out_parax and pre_drive_parax are internal signals. See the xschem test bench for more details.
 
 ![output waveform](output_waveform.png)
 
 ## How to test
 
-* Enable oscillator 1 by setting user input pin 0 high and measure the signal at analog output 0.
-* Enable oscillator 2 by setting user input pin 1 high and measure the signal at analog output 1.
+* Enable 600 MHz oscillator 1 by setting user input pin 0 high and measure the signal at analog output 0.
+* Enable 300 MHz oscillator 2 by setting user input pin 1 high and measure the signal at analog output 1.
 
 ## External hardware
 

@@ -1,8 +1,8 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 
-# 600 MHz ring oscillator
+# 600 & 300 MHz Ring Oscillators
 
-Uses 19 inverters and an output driver to test the bandwidth of the analog pins.
+2 rings of 19 and 37 inverters and an output driver to test the bandwidth of the analog pins.
 
 ![layout](docs/ringosclayout.png)
 
