@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1725621376
+timestamp 1725622005
 << metal1 >>
 rect 29122 11888 29522 11894
 rect 29122 11014 29522 11488
@@ -220,9 +220,9 @@ timestamp 1725617623
 transform 0 1 29640 -1 0 11140
 box -220 -1240 4640 640
 use ring_osc_logo  ring_osc_logo_0
-timestamp 1725621121
-transform 0 1 2272 -1 0 43014
-box 0 0 37072 8344
+timestamp 1725622005
+transform 1 0 3980 0 1 20950
+box 0 0 22400 5040
 << labels >>
 flabel metal4 s 28766 44952 28826 45152 0 FreeSans 480 90 0 0 clk
 port 0 nsew signal input
