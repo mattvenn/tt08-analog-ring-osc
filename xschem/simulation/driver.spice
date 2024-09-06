@@ -1,0 +1,9 @@
+** sch_path: /home/matt/work/asic-workshop/shuttle-tt08/tt08-analog-ring-osc/xschem/driver.sch
+.subckt driver VDD VSS in out
+*.PININFO VDD:B VSS:B out:O in:I
+XM9 net1 in VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=9 nf=1 m=1
+XM10 net1 in VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM11 out net1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=72 nf=8 m=1
+XM12 out net1 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=24 nf=8 m=1
+.ends
+.end

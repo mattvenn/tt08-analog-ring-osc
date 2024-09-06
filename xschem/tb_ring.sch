@@ -52,6 +52,29 @@ unitx=1
 logx=0
 logy=0
 }
+B 2 -220 1340 580 1740 {flags=graph
+y1=1.4e-17
+y2=1.8
+ypos1=0
+ypos2=2
+divy=5
+subdivy=1
+unity=1
+x1=1.5625e-17
+x2=5e-09
+divx=5
+subdivx=1
+xlabmag=1.0
+ylabmag=1.0
+node="ring_out_2
+out_2
+pre_drive_2"
+color="10 6 15"
+dataset=-1
+unitx=1
+logx=0
+logy=0
+}
 N -890 -40 -890 -20 {
 lab=GND}
 N -920 -120 -890 -120 {
@@ -102,6 +125,26 @@ N -1380 440 -1380 480 {
 lab=ring_out_parax}
 N -820 440 -820 480 {
 lab=ring_out}
+N -1380 740 -1360 740 {
+lab=GND}
+N -1380 720 -1360 720 {
+lab=vdd}
+N -1380 760 -1380 800 {
+lab=pre_drive_2}
+N -1690 800 -1380 800 {
+lab=pre_drive_2}
+N -1690 800 -1690 840 {
+lab=pre_drive_2}
+N -1690 840 -1680 840 {
+lab=pre_drive_2}
+N -1380 880 -1380 920 {
+lab=ring_out_2}
+N -1380 840 -1370 840 {
+lab=vdd}
+N -1380 860 -1360 860 {
+lab=GND}
+N -1380 920 -1380 960 {
+lab=ring_out_2}
 C {devices/lab_pin.sym} -1120 480 0 0 {name=p5 sig_type=std_logic lab=out}
 C {devices/code.sym} -1060 780 0 0 {name=TT_MODELS
 only_toplevel=true
@@ -173,4 +216,21 @@ C {devices/lab_pin.sym} -1370 360 0 1 {name=p12 sig_type=std_logic lab=vdd
 }
 C {devices/gnd.sym} -1360 380 0 0 {name=l6 lab=GND}
 C {devices/lab_pin.sym} -1380 320 0 1 {name=p13 sig_type=std_logic lab=pre_drive_parax
+}
+C {devices/lab_pin.sym} -1680 960 0 0 {name=p14 sig_type=std_logic lab=out_2}
+C {pad_model.sym} -1530 980 0 0 {name=x6}
+C {devices/gnd.sym} -1680 1000 0 0 {name=l7 lab=GND}
+C {ring_2.sym} -1530 740 0 0 {name=x7}
+C {devices/gnd.sym} -1360 740 0 0 {name=l9 lab=GND}
+C {devices/lab_pin.sym} -1360 720 0 1 {name=p15 sig_type=std_logic lab=vdd
+}
+C {devices/lab_pin.sym} -1680 720 0 0 {name=p16 sig_type=std_logic lab=enable
+}
+C {devices/lab_pin.sym} -1380 960 0 1 {name=p17 sig_type=std_logic lab=ring_out_2
+}
+C {driver.sym} -1530 860 0 0 {name=x8}
+C {devices/lab_pin.sym} -1370 840 0 1 {name=p18 sig_type=std_logic lab=vdd
+}
+C {devices/gnd.sym} -1360 860 0 0 {name=l10 lab=GND}
+C {devices/lab_pin.sym} -1380 800 0 1 {name=p20 sig_type=std_logic lab=pre_drive_2
 }

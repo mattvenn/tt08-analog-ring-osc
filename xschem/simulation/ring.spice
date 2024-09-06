@@ -1,0 +1,33 @@
+** sch_path: /home/matt/work/asic-workshop/shuttle-tt08/tt08-analog-ring-osc/xschem/ring.sch
+.subckt ring VDD VSS enable out
+*.PININFO VDD:B enable:I VSS:B out:O
+x2 enable net18 VSS VSS VDD VDD out sky130_fd_sc_hd__nand2_2
+x1 VDD VSS out net1 inverter
+x3 VDD VSS net1 net2 inverter
+x4 VDD VSS net2 net3 inverter
+x5 VDD VSS net3 net4 inverter
+x6 VDD VSS net4 net5 inverter
+x7 VDD VSS net5 net6 inverter
+x8 VDD VSS net6 net7 inverter
+x9 VDD VSS net7 net8 inverter
+x10 VDD VSS net8 net9 inverter
+x11 VDD VSS net9 net10 inverter
+x12 VDD VSS net10 net11 inverter
+x13 VDD VSS net11 net12 inverter
+x14 VDD VSS net12 net13 inverter
+x15 VDD VSS net13 net14 inverter
+x16 VDD VSS net14 net15 inverter
+x17 VDD VSS net15 net16 inverter
+x18 VDD VSS net16 net17 inverter
+x19 VDD VSS net17 net18 inverter
+.ends
+
+* expanding   symbol:  inverter.sym # of pins=4
+** sym_path: /home/matt/work/asic-workshop/shuttle-tt08/tt08-analog-ring-osc/xschem/inverter.sym
+** sch_path: /home/matt/work/asic-workshop/shuttle-tt08/tt08-analog-ring-osc/xschem/inverter.sch
+.subckt inverter VDD VSS in out
+*.PININFO out:O VDD:B VSS:B in:I
+x1 in VSS VSS VDD VDD out sky130_fd_sc_hd__inv_2
+.ends
+
+.end

@@ -1,0 +1,51 @@
+** sch_path: /home/matt/work/asic-workshop/shuttle-tt08/tt08-analog-ring-osc/xschem/ring_2.sch
+.subckt ring_2 VDD VSS enable out
+*.PININFO VDD:B enable:I VSS:B out:O
+x2 enable net18 VSS VSS VDD VDD out sky130_fd_sc_hd__nand2_2
+x1 VDD VSS net36 net1 inverter
+x3 VDD VSS net1 net2 inverter
+x4 VDD VSS net2 net3 inverter
+x5 VDD VSS net3 net4 inverter
+x6 VDD VSS net4 net5 inverter
+x7 VDD VSS net5 net6 inverter
+x8 VDD VSS net6 net7 inverter
+x9 VDD VSS net7 net8 inverter
+x10 VDD VSS net8 net9 inverter
+x11 VDD VSS net9 net10 inverter
+x12 VDD VSS net10 net11 inverter
+x13 VDD VSS net11 net12 inverter
+x14 VDD VSS net12 net13 inverter
+x15 VDD VSS net13 net14 inverter
+x16 VDD VSS net14 net15 inverter
+x17 VDD VSS net15 net16 inverter
+x18 VDD VSS net16 net17 inverter
+x19 VDD VSS net17 net18 inverter
+x20 VDD VSS out net19 inverter
+x21 VDD VSS net19 net20 inverter
+x22 VDD VSS net20 net21 inverter
+x23 VDD VSS net21 net22 inverter
+x24 VDD VSS net22 net23 inverter
+x25 VDD VSS net23 net24 inverter
+x26 VDD VSS net24 net25 inverter
+x27 VDD VSS net25 net26 inverter
+x28 VDD VSS net26 net27 inverter
+x29 VDD VSS net27 net28 inverter
+x30 VDD VSS net28 net29 inverter
+x31 VDD VSS net29 net30 inverter
+x32 VDD VSS net30 net31 inverter
+x33 VDD VSS net31 net32 inverter
+x34 VDD VSS net32 net33 inverter
+x35 VDD VSS net33 net34 inverter
+x36 VDD VSS net34 net35 inverter
+x37 VDD VSS net35 net36 inverter
+.ends
+
+* expanding   symbol:  inverter.sym # of pins=4
+** sym_path: /home/matt/work/asic-workshop/shuttle-tt08/tt08-analog-ring-osc/xschem/inverter.sym
+** sch_path: /home/matt/work/asic-workshop/shuttle-tt08/tt08-analog-ring-osc/xschem/inverter.sch
+.subckt inverter VDD VSS in out
+*.PININFO out:O VDD:B VSS:B in:I
+x1 in VSS VSS VDD VDD out sky130_fd_sc_hd__inv_2
+.ends
+
+.end

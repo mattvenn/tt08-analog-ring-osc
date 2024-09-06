@@ -7,4 +7,5 @@ readnet verilog ../src/project.v $source
 # add any spice files of your analog blocks:
 readnet spice ../xschem/simulation/driver.spice $source
 readnet spice ../xschem/simulation/ring.spice $source
+readnet spice ../xschem/simulation/ring_2.spice $source
 lvs "$layout $project" "$source $project" $::env(PDK_ROOT)/sky130A/libs.tech/netgen/sky130A_setup.tcl lvs.report -blackbox
