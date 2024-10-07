@@ -1,6 +1,7 @@
 set project [lindex $argv $argc-1]
 box 0 0 0 0
 load $project.mag
+#gds read ../gds/$project.gds
 extract do local
 extract all
 ext2spice lvs
