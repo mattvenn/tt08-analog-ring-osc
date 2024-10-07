@@ -29,6 +29,8 @@ The output waveform of the 600MHz is expected to be as shown in the cyan trace (
 * Enable 600 MHz oscillator 1 by setting user input pin 0 high and measure the signal at analog output 0.
 * Enable 300 MHz oscillator 2 by setting user input pin 1 high and measure the signal at analog output 1.
 
+The 300 MHz ring oscillator had a problem with a missing contact in TT08, and is not expected to work. It has been fixed for TT09.
+
 ## External hardware
 
 Oscilloscope.
