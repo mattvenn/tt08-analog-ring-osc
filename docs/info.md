@@ -34,3 +34,9 @@ The 300 MHz ring oscillator had a problem with a missing contact in TT08, and is
 ## External hardware
 
 Oscilloscope.
+
+## Tested
+
+Oscillator 1 is working, but 2 is broken due to a missing via (fixed in updated version). This is oscillator 1. The amplitude is lower because the pull down resistor has been left in place on the demoboard.
+
+![test](remmina_Quick%20Connect_192.168.50.11_20251107-123234.png)
