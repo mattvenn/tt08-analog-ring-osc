@@ -51,9 +51,9 @@ module tt_um_mattvenn_analog_ring_osc (
         .out(ua[1])
     );
 
-    // ties for the output enables
-    assign uo_out[0] = VGND;
-    assign uo_out[1] = VGND;
+    // outputs 
+    assign uo_out[0] = ua[0];
+    assign uo_out[1] = ua[1];
     assign uo_out[2] = VGND;
     assign uo_out[3] = VGND;
     assign uo_out[4] = VGND;
@@ -61,6 +61,7 @@ module tt_um_mattvenn_analog_ring_osc (
     assign uo_out[6] = VGND;
     assign uo_out[7] = VGND;
 
+    // ties for the output enables
     assign uio_out[0] = VGND;
     assign uio_out[1] = VGND;
     assign uio_out[2] = VGND;
